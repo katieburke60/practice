@@ -1,0 +1,8 @@
+//Setting up a server
+
+1. yarn add json-server
+2. new file db.json
+3. New script
+  "dev-server": "json-server -p 8080 db.json" (includes port and name of file that holds server.)
+
+//When the server is running have access to resource localhost8080/todos, which is an API with the todos array contained in the application's state.
